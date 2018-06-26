@@ -7,6 +7,6 @@ ReactDOM.render(
     <h3>3a</h3>
     <h3>Kristi and Marcus</h3>
     <p><em>Firebase will not save record!</em></p>
-  </div>
+  </div>,
   document.getElementById('react-app-root')
 );

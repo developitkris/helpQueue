@@ -14,7 +14,7 @@ module.exports = {
 
   resolve: {
     extensions: ['.js', '.jsx']
-  ,
+  },
 
   module: {
     rules: [
@@ -28,8 +28,7 @@ module.exports = {
             "react"
           ]
         }
-      },
-    ],
+      }
+    ]
   }
-
-};
+}
