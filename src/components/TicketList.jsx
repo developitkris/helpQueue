@@ -3,9 +3,9 @@ import Ticket from "./Ticket";
 
 var masterTicketList = [
   {
-    names= 'Kristi & Marcus',
-    location= '3A',
-    issue= 'Firebase will not save record!'
+    names: 'Kristi & Marcus',
+    location: '3A',
+    issue: 'Firebase will not save record!'
   },
   {
     names: 'Thato and Haley',
@@ -35,5 +35,5 @@ function TicketList(){
           key={index}/>
       )}
     </div>
-
+)}
 export default TicketList;
