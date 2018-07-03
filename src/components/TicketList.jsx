@@ -31,10 +31,12 @@ function TicketList(props){
     <div>
       <hr/>
       {props.ticketList.map((ticket) =>
-        <Ticket names={ticket.names}
+        <Ticket
+          names={ticket.names}
           location={ticket.location}
           issue={ticket.issue}
           formattedWaitTime={ticket.formattedWaitTime}
+          currentRouterPath={props.currentRouterPath}
           key={ticket.id}/>
       )}
     </div>
