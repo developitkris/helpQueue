@@ -26,14 +26,15 @@ var masterTicketList = [
 ];
 
 function TicketList(props){
+  console.log(props.ticketList);
   return (
     <div>
       <hr/>
-      {masterTicketList.map((ticket, index) =>
+      {masterTicketList.map((ticket) =>
         <Ticket names={ticket.names}
           location={ticket.location}
           issue={ticket.issue}
-          key={index}/>
+          key={ticket.id}/>
       )}
     </div>
 )}
