@@ -7,7 +7,8 @@ class NewTicketControl extends React.Component {
   constructor(props) {
     super(props)
     this.state={
-      formVisibleOnPage:false
+      formVisibleOnPage:false,
+      testState: 'hey!'
     };
     this.handleTroubleShootingConfirmation = this.handleTroubleShootingConfirmation.bind(this);
   }
